@@ -1,0 +1,65 @@
+
+
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+        
+        
+        <%- include('partials/header'); -%>
+
+
+    <div class="container-fluid gedf-wrapper">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="h5">User</div>
+                        <div class="h7 text-muted">Fullname : User</div>
+                        <div class="h7">Information, Hobbies etc
+                        </div>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="h6 text-muted">Friends</div>
+                            <div class="h5">friend 1, friend 2</div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="h6 text-muted">Photos</div>
+                            <div class="h5">      </div>
+                        </li>
+                        <li class="list-group-item">Quote: Vestibulum at eros</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 gedf-main">
+                <%- include('partials/post'); -%>
+                <!--- \\\\\\\Post-->
+               
+
+                <%- include('newpost'); -%>
+           
+               
+
+
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="h5">My page</div>
+                        <div class="h7 text-muted"></div>
+                        <div class="h7"></div>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="h6 text-muted">This week</div>
+                            <div class="h5"></div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="h5">      </div>
+                        </li>
+                       
+                    </ul>
+                </div>
+            </div>
+           
+        </div>
+    </div>
