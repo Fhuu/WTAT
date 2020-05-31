@@ -6,3 +6,6 @@ Type 'npm install' in the terminal install the necessary dependencies
 Type 'node app.js' to run the app
 
 If you see 'The server is listening on port number: 3000' then you have successfully build your local server
+
+
+This is a group project and I am reponsible for UserController, UserModel, UserRouter, and index.ejs.
